@@ -49,3 +49,25 @@
   padding: 20px 20px;
   height: 30px;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 150%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  .board {
+    width: 200%;
+  }
+  .reset {
+    /* width: 160%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+  }
+  .title {
+    margin-left: 70%;
+    width: 800px;
+  }
+}

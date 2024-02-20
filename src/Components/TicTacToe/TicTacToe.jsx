@@ -62,9 +62,9 @@ const TicTacToe = () => {
   const won = (winner) => {
     setLock(true);
     if (winner === "x") {
-      titleRef.current.innerHTML = `Congratulations : <img src = ${cross_icon} >`;
+      titleRef.current.innerHTML = `Congratulations Winner is  : <img src = ${cross_icon} >`;
     } else {
-      titleRef.current.innerHTML = `Congratulations : <img src = ${circle_icon}>`;
+      titleRef.current.innerHTML = `Congratulations Winner is : <img src = ${circle_icon}>`;
     }
   };
 
