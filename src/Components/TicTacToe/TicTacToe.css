@@ -50,12 +50,11 @@
   height: 30px;
 }
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 150%;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-  }
+  /* .container {
+    width: 160%;
+    display: flex;
+
+   } */
   .board {
     width: 200%;
   }
@@ -67,7 +66,12 @@
     margin-left: 650px;
   }
   .title {
-    margin-left: 70%;
+    margin-left: 80%;
     width: 800px;
+  }
+
+  .main {
+    width: 100%;
+    margin-top: 80%;
   }
 }
